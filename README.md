@@ -1,4 +1,4 @@
-# DSysWhispers
+# DlangWhispers
 
 Implementation Of SysWhispers Direct System Call Technique In D.
 

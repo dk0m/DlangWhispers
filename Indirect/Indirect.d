@@ -134,6 +134,7 @@ PVOID getSyscallJmpAddr(DWORD hash) {
     return NULL;
 }
 
+
 extern(Windows) uint NtAllocateVirtualMemory(
     HANDLE ProcessHandle,
     PVOID* BaseAddress,
@@ -172,6 +173,7 @@ extern(Windows) uint NtAllocateVirtualMemory(
     }
 
 }
+
 
 alias NTSTATUS = uint;
 

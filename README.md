@@ -13,5 +13,5 @@ Thanks to [SysWhispers2](https://github.com/jthuraisamy/SysWhispers2) for alot o
 [KlezVirus](https://github.com/klezVirus/) for the function prototypes JSON file and [SysWhispers3](https://github.com/klezVirus/SysWhispers3/) project.
 
 
-## Future Of This
-I will soon release a DLang module generator for indirect / direct system calls, Which will allow you to seamlessly call system calls directly in your D code, For now, Enjoy the little example demos, Which will call **NtAllocateVirtualMemory** to allocate memory in the current process.
+## Problems With Generator
+Due to the nature of C and D structs and them being different, Their conversion can be really tedious, Hence why I only made the generator output function definitions.

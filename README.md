@@ -2,6 +2,10 @@
 
 Implementation Of SysWhispers Direct System Call Technique In D.
 
+## Usage
+```
+$ python gen.py --type direct --functions NtAllocateVirtualMemory,NtProtectVirtualMemory,NtWriteVirtualMemory,NtCreateThreadEx --output syscalls.d
+```
 
 ## Acknowledgement
 
